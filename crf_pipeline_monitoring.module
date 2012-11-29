@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the CRF Pipeline Monitoring feature.
+ */
+
+include_once 'crf_pipeline_monitoring.features.inc';
