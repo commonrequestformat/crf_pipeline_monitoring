@@ -14,7 +14,7 @@ function crf_pipeline_monitoring_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'additional_settings__active_tab_pipeline_monitoring';
-  $strongarm->value = 'edit-print';
+  $strongarm->value = 'edit-display';
   $export['additional_settings__active_tab_pipeline_monitoring'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -141,7 +141,7 @@ function crf_pipeline_monitoring_strongarm() {
           'weight' => '0',
         ),
         'path' => array(
-          'weight' => '3',
+          'weight' => '5',
         ),
         'workbench_access' => array(
           'weight' => '2',
@@ -180,7 +180,7 @@ function crf_pipeline_monitoring_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'node_options_pipeline_monitoring';
   $strongarm->value = array(
-    0 => 'moderation',
+    0 => 'status',
     1 => 'revision',
   );
   $export['node_options_pipeline_monitoring'] = $strongarm;
