@@ -17,7 +17,6 @@ features[field][] = comment-comment_node_pipeline_monitoring-comment_body
 features[field][] = node-pipeline_monitoring-field_comments
 features[field][] = node-pipeline_monitoring-field_file
 features[field][] = node-pipeline_monitoring-field_nc_request
-features[field][] = node-pipeline_monitoring-field_pln_mngrs_contacts
 features[node][] = pipeline_monitoring
 features[rules_config][] = rules_email_ocha_focal_point_on_pipeline_monitoring_submission
 features[user_permission][] = create pipeline_monitoring content
