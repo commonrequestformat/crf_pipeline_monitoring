@@ -253,12 +253,12 @@ function crf_pipeline_monitoring_field_default_fields() {
       ),
       'entity_type' => 'node',
       'field_name' => 'field_file',
-      'label' => 'File',
+      'label' => 'Attach Pipeline Monitoring related files',
       'required' => 0,
       'settings' => array(
         'description_field' => 0,
         'file_directory' => '',
-        'file_extensions' => 'txt xls xlsx doc docx',
+        'file_extensions' => 'txt csv xls xlsx doc docx ppt pdf',
         'max_filesize' => '',
         'user_register_form' => FALSE,
       ),
@@ -266,6 +266,7 @@ function crf_pipeline_monitoring_field_default_fields() {
         'active' => 1,
         'module' => 'file',
         'settings' => array(
+          'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
           'progress_indicator' => 'throbber',
         ),
         'type' => 'file_generic',
@@ -371,9 +372,9 @@ function crf_pipeline_monitoring_field_default_fields() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Attach Pipeline Monitoring related files');
   t('Comment');
   t('Comments');
-  t('File');
   t('Request');
 
   return $fields;

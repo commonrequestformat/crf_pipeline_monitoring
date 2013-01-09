@@ -20,7 +20,7 @@ function crf_pipeline_monitoring_ctools_plugin_api() {
 function crf_pipeline_monitoring_node_info() {
   $items = array(
     'pipeline_monitoring' => array(
-      'name' => t('Pipeline Monitoring'),
+      'name' => t('Pipeline Monitoring Information'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',
