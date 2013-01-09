@@ -5,3 +5,14 @@
  */
 
 include_once 'crf_pipeline_monitoring.features.inc';
+
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function crf_pipeline_monitoring_form_pipeline_monitoring_node_form_alter(&$form, &$form_state, $form_id) {
+  $node = $form['#node'];
+  if (!isset($node->nid)) {  
+    $form['actions']['submit']['#value'] = t('Submit to OCHA');
+  }
+}
