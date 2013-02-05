@@ -14,9 +14,9 @@ function crf_pipeline_monitoring_user_default_permissions() {
   $permissions['create pipeline_monitoring content'] = array(
     'name' => 'create pipeline_monitoring content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -25,8 +25,8 @@ function crf_pipeline_monitoring_user_default_permissions() {
   $permissions['delete any pipeline_monitoring content'] = array(
     'name' => 'delete any pipeline_monitoring content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'manager',
+      'administrator' => 'administrator',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -35,9 +35,9 @@ function crf_pipeline_monitoring_user_default_permissions() {
   $permissions['delete own pipeline_monitoring content'] = array(
     'name' => 'delete own pipeline_monitoring content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -46,8 +46,8 @@ function crf_pipeline_monitoring_user_default_permissions() {
   $permissions['edit any pipeline_monitoring content'] = array(
     'name' => 'edit any pipeline_monitoring content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'manager',
+      'administrator' => 'administrator',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -56,9 +56,9 @@ function crf_pipeline_monitoring_user_default_permissions() {
   $permissions['edit own pipeline_monitoring content'] = array(
     'name' => 'edit own pipeline_monitoring content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -67,9 +67,9 @@ function crf_pipeline_monitoring_user_default_permissions() {
   $permissions['view any unpublished pipeline_monitoring content'] = array(
     'name' => 'view any unpublished pipeline_monitoring content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
     ),
     'module' => 'view_unpublished',
   );
