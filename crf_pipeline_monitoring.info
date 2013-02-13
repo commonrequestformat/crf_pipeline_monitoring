@@ -17,7 +17,6 @@ dependencies[] = view_unpublished
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:1
 features[field][] = comment-comment_node_pipeline_monitoring-comment_body
-features[field][] = node-pipeline_monitoring-field_comments
 features[field][] = node-pipeline_monitoring-field_file
 features[field][] = node-pipeline_monitoring-field_nc_request
 features[node][] = pipeline_monitoring
